@@ -1,14 +1,10 @@
 <template>
-  
+  <div>我是传统医学篇</div>
 </template>
 
 <script>
 export default {
-  name: 'index',
+  name: 'TraditionalMedical',
   layout:'homeLayout',
-  beforeCreate(){
-    this.$router.replace('./home')
-  }
-  
 }
 </script>

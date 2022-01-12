@@ -1,14 +1,10 @@
 <template>
-  
+  <div>我是Home</div>
 </template>
 
 <script>
 export default {
-  name: 'index',
+  name: 'Home',
   layout:'homeLayout',
-  beforeCreate(){
-    this.$router.replace('./home')
-  }
-  
 }
 </script>
