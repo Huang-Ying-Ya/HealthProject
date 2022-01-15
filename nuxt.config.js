@@ -22,12 +22,21 @@ export default {
     {
       src:'assets/css/common.less',
       lang:'less'
-    }
+    },
+    {
+      src: 'swiper/css/swiper.css'
+    },
+    '@/assets/iconfont/iconfont.css',
+    // '@/assets/theme/index.css' //element-ui使用第一种自动生成的方法（较复杂，内存占用大）
+    { src: '~assets/css/scss/element-variables.scss', lang: 'scss' }
   ],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [
-    '@/plugins/element-ui'
+    '@/plugins/element-ui',
+    {src:'@/plugins/mock',ssr:true},
+    { src: "@/plugins/swiper.js", ssr: false },
+    {src:'@/plugins/vue-seamless-scroll',ssr:false},
   ],
 
   // Auto import components: https://go.nuxtjs.dev/config-components
@@ -45,6 +54,12 @@ export default {
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
     transpile: [/^element-ui/],
+    // 按需引入element-ui
+    babel: {
+      plugins: [
+        ["component", { "libraryName": "element-ui", "styleLibraryName": "theme-chalk" }]
+      ]
+    },
   },
   styleResources:{
     less:[

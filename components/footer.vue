@@ -47,6 +47,7 @@ export default {
     }
     .footerBottom {
         background-color: #f9f9f9;
+        padding-bottom: 40px;
         .about {
             margin-top      : 10px;
             .footerNav {

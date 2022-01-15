@@ -9,6 +9,7 @@
                 >首页</nuxt-link
               >
             </span>
+            <el-dropdown-menu slot="dropdown" class="disappear"/>
           </el-dropdown>
         </div>
       </el-col>
@@ -140,6 +141,7 @@
                 >心理健康指南</nuxt-link
               >
             </span>
+            <el-dropdown-menu slot="dropdown" class="disappear"/>
           </el-dropdown>
         </div></el-col
       >
@@ -217,6 +219,7 @@
                 >传统医学养生</nuxt-link
               >
             </span>
+            <el-dropdown-menu slot="dropdown" class="disappear"/>
           </el-dropdown>
         </div></el-col
       >
@@ -299,11 +302,13 @@ export default {
   border-radius: 4px;
 }
 .grid-content {
-  border-radius: 4px;
   min-height: 36px;
 }
 .row-bg {
   padding: 10px 0;
   background-color: #f9fafc;
+}
+.disappear {
+  display: none;
 }
 </style>
