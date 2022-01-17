@@ -8,7 +8,7 @@
     </div>
     <vue-seamless-scroll
       :data="runningData"
-      :class-option="scrollOption"
+      
       class="scroll-container seamless-scroll"
     >
       <div class="flex-row row-data" v-for="item in runningData" :key="item.id">

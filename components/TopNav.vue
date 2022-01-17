@@ -56,7 +56,7 @@
             </span>
             <el-dropdown-menu slot="dropdown">
               <el-dropdown-item
-                ><nuxt-link to="" class="nuxtLink" target="_blank"
+                ><nuxt-link to="./modernmedical/guide" class="nuxtLink" target="_blank"
                   >指导思想</nuxt-link
                 ></el-dropdown-item
               >
@@ -271,8 +271,8 @@ export default {
 
 <style scoped>
 .topNav {
-  text-align: center;
   margin-top: 10px;
+  text-align: center;
 }
 .el-dropdown-link {
   cursor: pointer;

@@ -1,4 +1,5 @@
 <template>
+<!-- 利用swiper完成轮播图 -->
   <div class="swiper-container" ref="cur">
     <div class="swiper-wrapper">
       <div

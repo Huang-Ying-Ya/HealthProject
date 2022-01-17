@@ -27,6 +27,13 @@
       "unicode_decimal": 983812
     },
     {
+      "icon_id": "436022",
+      "name": "治疗方法",
+      "font_class": "zhiliaofangfa",
+      "unicode": "e80b",
+      "unicode_decimal": 59403
+    },
+    {
       "icon_id": "681204",
       "name": "圆点小",
       "font_class": "yuandianxiao",
@@ -41,6 +48,34 @@
       "unicode_decimal": 58905
     },
     {
+      "icon_id": "947103",
+      "name": "收藏",
+      "font_class": "shoucang",
+      "unicode": "e666",
+      "unicode_decimal": 58982
+    },
+    {
+      "icon_id": "3826029",
+      "name": "诊断",
+      "font_class": "zhenduan",
+      "unicode": "e62e",
+      "unicode_decimal": 58926
+    },
+    {
+      "icon_id": "3854405",
+      "name": "治疗",
+      "font_class": "zhiliao",
+      "unicode": "e676",
+      "unicode_decimal": 58998
+    },
+    {
+      "icon_id": "4406936",
+      "name": "评论",
+      "font_class": "pinglun",
+      "unicode": "e60b",
+      "unicode_decimal": 58891
+    },
+    {
       "icon_id": "4747962",
       "name": "养生",
       "font_class": "yangsheng",
@@ -53,6 +88,13 @@
       "font_class": "QQ",
       "unicode": "e882",
       "unicode_decimal": 59522
+    },
+    {
+      "icon_id": "5581269",
+      "name": "人体",
+      "font_class": "renti",
+      "unicode": "ead2",
+      "unicode_decimal": 60114
     },
     {
       "icon_id": "6756279",
@@ -97,11 +139,25 @@
       "unicode_decimal": 58960
     },
     {
+      "icon_id": "10593806",
+      "name": "向导,指导,方向,面包屑_jurassic",
+      "font_class": "jurassic_nav",
+      "unicode": "e69e",
+      "unicode_decimal": 59038
+    },
+    {
+      "icon_id": "12250545",
+      "name": "康养",
+      "font_class": "kangyang",
+      "unicode": "e63a",
+      "unicode_decimal": 58938
+    },
+    {
       "icon_id": "12736667",
       "name": "右箭头",
       "font_class": "youjiantou",
-      "unicode": "e60b",
-      "unicode_decimal": 58891
+      "unicode": "e60c",
+      "unicode_decimal": 58892
     },
     {
       "icon_id": "17605539",
@@ -109,6 +165,13 @@
       "font_class": "huxike",
       "unicode": "e81a",
       "unicode_decimal": 59418
+    },
+    {
+      "icon_id": "17605555",
+      "name": "中医科",
+      "font_class": "zhongyike",
+      "unicode": "e81d",
+      "unicode_decimal": 59421
     },
     {
       "icon_id": "20717543",
