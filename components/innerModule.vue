@@ -74,9 +74,9 @@
         </div>
       </el-col>
       <el-col :span="4">
-        <div class="grid-content comparison" v-show="this.moduleName!=='人体使用指南'">
-          <div class="comparison-btn" v-show="this.moduleName=='现代医学'">与传统医学对比</div>
-          <div class="comparison-btn" v-show="this.moduleName=='传统医学'">与现代医学对比</div>
+        <div class="grid-content comparison" v-if="this.moduleName==='现代医学篇'||'传统医学篇'">
+          <div class="comparison-btn" v-show="this.moduleName=='现代医学篇'">与传统医学对比</div>
+          <div class="comparison-btn" v-show="this.moduleName=='传统医学篇'">与现代医学对比</div>
         </div>
       </el-col>
     </el-row>

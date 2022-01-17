@@ -41,6 +41,13 @@
       "unicode_decimal": 59223
     },
     {
+      "icon_id": "779134",
+      "name": "疾病",
+      "font_class": "jibing",
+      "unicode": "e634",
+      "unicode_decimal": 58932
+    },
+    {
       "icon_id": "924704",
       "name": "热度",
       "font_class": "redu",
@@ -104,6 +111,13 @@
       "unicode_decimal": 58883
     },
     {
+      "icon_id": "7835496",
+      "name": "精神心理科",
+      "font_class": "jingshenxinlike",
+      "unicode": "e61e",
+      "unicode_decimal": 58910
+    },
+    {
       "icon_id": "8137611",
       "name": "字体缩小",
       "font_class": "zitisuoxiao",
@@ -158,6 +172,13 @@
       "font_class": "youjiantou",
       "unicode": "e60c",
       "unicode_decimal": 58892
+    },
+    {
+      "icon_id": "16328290",
+      "name": "肺",
+      "font_class": "fei",
+      "unicode": "e655",
+      "unicode_decimal": 58965
     },
     {
       "icon_id": "17605539",
