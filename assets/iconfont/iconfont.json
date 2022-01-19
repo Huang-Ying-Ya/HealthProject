@@ -13,13 +13,6 @@
       "unicode_decimal": 983471
     },
     {
-      "icon_id": "77156",
-      "name": "微信",
-      "font_class": "weixin",
-      "unicode": "f0106",
-      "unicode_decimal": 983302
-    },
-    {
       "icon_id": "136387",
       "name": "下载",
       "font_class": "xiazai",
@@ -60,6 +53,13 @@
       "font_class": "shoucang",
       "unicode": "e666",
       "unicode_decimal": 58982
+    },
+    {
+      "icon_id": "1346675",
+      "name": "微信",
+      "font_class": "weixin",
+      "unicode": "e637",
+      "unicode_decimal": 58935
     },
     {
       "icon_id": "3826029",
@@ -139,6 +139,13 @@
       "unicode_decimal": 59480
     },
     {
+      "icon_id": "9186712",
+      "name": "微博",
+      "font_class": "weibo",
+      "unicode": "e667",
+      "unicode_decimal": 58983
+    },
+    {
       "icon_id": "9384073",
       "name": "搜索",
       "font_class": "sousuo",
@@ -172,6 +179,13 @@
       "font_class": "youjiantou",
       "unicode": "e60c",
       "unicode_decimal": 58892
+    },
+    {
+      "icon_id": "13332701",
+      "name": "收藏",
+      "font_class": "shoucang1",
+      "unicode": "e610",
+      "unicode_decimal": 58896
     },
     {
       "icon_id": "16328290",

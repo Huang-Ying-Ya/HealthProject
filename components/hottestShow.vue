@@ -7,7 +7,7 @@
       </li>
       <li class="article">
         <span class="iconfont icon-point">&#xe757;</span>
-        <p class="article-title">我在马路边捡到一分钱啊哎嘿嘿嘿</p>
+        <p class="article-title" @click="this.showArticle">我在马路边捡到一分钱啊哎嘿嘿嘿</p>
         <span class="iconfont icon-hot">&#xe619;</span>
         <span class="hot-number">3218</span>
       </li>
@@ -54,6 +54,14 @@
 <script>
 export default {
   name: "HottestShow",
+  methods:{
+    showArticle(){
+      let link = this.$router.resolve({
+        path: "./article",
+      });
+      window.open(link.href, "_blank");
+    }
+  }
 };
 </script>
 

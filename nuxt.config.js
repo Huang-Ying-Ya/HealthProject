@@ -20,23 +20,27 @@ export default {
   css: [
     'element-ui/lib/theme-chalk/index.css',
     {
-      src:'assets/css/common.less',
-      lang:'less'
+      src: 'assets/css/common.less',
+      lang: 'less'
     },
     {
       src: 'swiper/css/swiper.css'
     },
     '@/assets/iconfont/iconfont.css',
     // '@/assets/theme/index.css' //element-ui使用第一种自动生成的方法（较复杂，内存占用大）
-    { src: '~assets/css/scss/element-variables.scss', lang: 'scss' }
+    { src: '~assets/css/scss/element-variables.scss', lang: 'scss' },
+    'quill/dist/quill.snow.css',
+    'quill/dist/quill.bubble.css',
+    'quill/dist/quill.core.css'
   ],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [
     '@/plugins/element-ui',
-    {src:'@/plugins/mock',ssr:true},
+    { src: '@/plugins/mock', ssr: true },
     { src: "@/plugins/swiper.js", ssr: false },
-    {src:'@/plugins/vue-seamless-scroll',ssr:false},
+    { src: '@/plugins/vue-seamless-scroll', ssr: false },
+    { src: '@/plugins/vue-quill-editor', ssr: false }
   ],
 
   // Auto import components: https://go.nuxtjs.dev/config-components
@@ -61,8 +65,8 @@ export default {
       ]
     },
   },
-  styleResources:{
-    less:[
+  styleResources: {
+    less: [
       './assets/css/common.less'
     ]
   }
